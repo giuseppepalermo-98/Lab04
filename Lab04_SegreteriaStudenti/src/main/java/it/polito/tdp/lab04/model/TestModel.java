@@ -5,11 +5,8 @@ public class TestModel {
 	public static void main(String[] args) {
 
 		Model model = new Model();
-		
-		/*
-		 * 	Write here your test model
-		 */
-
+		System.out.println(model.getStudentebyMatricola(146101));
+		System.out.println(model.getStudentiIscrittiCorso(new Corso("02CIXPG",8,"Sistemi informativi aziendali", 1)));
 	}
 
 }
